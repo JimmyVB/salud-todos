@@ -1,6 +1,7 @@
 package com.saludtodos.springboot.backend.apirest.models.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.Data;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -10,6 +11,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "facturas")
+@Data
 public class Factura implements Serializable {
 
     private static final long serialVersionUID = 2189314171408493743L;

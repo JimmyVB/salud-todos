@@ -4,7 +4,6 @@ import com.saludtodos.springboot.backend.apirest.models.dao.IClienteDao;
 import com.saludtodos.springboot.backend.apirest.models.dao.IFacturaDao;
 import com.saludtodos.springboot.backend.apirest.models.dao.IProductoDao;
 import com.saludtodos.springboot.backend.apirest.models.dao.IUsuarioDao;
-import com.bolsadeideas.springboot.backend.apirest.models.entity.*;
 import com.saludtodos.springboot.backend.apirest.models.entity.Cliente;
 import com.saludtodos.springboot.backend.apirest.models.entity.Factura;
 import com.saludtodos.springboot.backend.apirest.models.entity.Producto;
